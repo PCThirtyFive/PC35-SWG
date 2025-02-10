@@ -1,10 +1,10 @@
 --Should all created players start with God Mode? 1 = yes, 0 = no
 freeGodMode = 0;
 --How many cash credits new characters start with after creating a character (changed during test phase, normal value is 100)
-startingCash = 100
+startingCash = 10000
 --startingCash = 100000
 --How many bank credits new characters start with after creating a character (changed during test phase, normal value is 1000)
-startingBank = 1000
+startingBank = 50000
 --startingBank = 100000
 --How many skill points a new characters start with
 skillPoints = 250
@@ -47,6 +47,21 @@ marojMelon = "object/tangible/food/foraged/foraged_fruit_s1.iff"
 
 x31Speeder = "object/tangible/deed/vehicle_deed/landspeeder_x31_deed.iff"
 
+comp1 = "object/tangible/wearables/armor/composite/armor_composite_helmet.iff"
+
+comp2 = "object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff"
+
+comp3 = "object/tangible/wearables/armor/composite/armor_composite_gloves.iff"
+
+comp4 = "object/tangible/wearables/armor/composite/armor_composite_boots.iff"
+
+swoop = "object/tangible/deed/vehicle_deed/speederbike_swoop_deed.iff"
+
+house = "object/tangible/deed/player_house_deed/generic_house_small_deed.iff"
+
+
+
+
 professionSpecificItems = {
 	combat_brawler = { brawlerOneHander, brawlerTwoHander, brawlerPolearm },
 	combat_marksman = { marksmanPistol, marksmanCarbine, marksmanRifle },
@@ -57,4 +72,4 @@ professionSpecificItems = {
 	social_entertainer = { slitherhorn }
 }
 
-commonStartingItems = { marojMelon, survivalKnife, x31Speeder }
+commonStartingItems = { marojMelon, survivalKnife, x31Speeder, comp1, comp2, comp3, comp4, swoop, house,}

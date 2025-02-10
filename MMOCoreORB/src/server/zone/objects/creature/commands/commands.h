@@ -211,6 +211,7 @@
 #include "ForceArmor1Command.h"
 #include "ForceArmor2Command.h"
 #include "ForceChokeCommand.h"
+#include "ForceChoke2Command.h"
 #include "ForceCommandCommand.h"
 #include "ForceCureDiseaseCommand.h"
 #include "ForceCurePoisonCommand.h"
@@ -223,8 +224,12 @@
 #include "ForceKnockdown3Command.h"
 #include "ForceLightningCone1Command.h"
 #include "ForceLightningCone2Command.h"
+#include "ForceLightningCone3Command.h"
 #include "ForceLightningSingle1Command.h"
 #include "ForceLightningSingle2Command.h"
+#include "ForceLightningSingle3Command.h"
+#include "ForceLightning3Command.h"
+#include "ForceLightning4Command.h"
 #include "ForceMeditateCommand.h"
 #include "ForceOfWillCommand.h"
 #include "ForceProtectionCommand.h"
@@ -586,6 +591,7 @@
 #include "Saber2hSweep3Command.h"
 #include "SaberPolearmDervishCommand.h"
 #include "SaberPolearmDervish2Command.h"
+#include "Dervish3Command.h"
 #include "SaberPolearmHit1Command.h"
 #include "SaberPolearmHit2Command.h"
 #include "SaberPolearmHit3Command.h"
@@ -600,6 +606,7 @@
 #include "SaberThrow1Command.h"
 #include "SaberThrow2Command.h"
 #include "SaberThrow3Command.h"
+#include "SaberThrow4Command.h"
 #include "SampleCommand.h"
 #include "SampleDNACommand.h"
 #include "ScatterShot1Command.h"
@@ -836,9 +843,13 @@
 #include "InspacereloadCommand.h"
 #include "InspacerrCommand.h"
 #include "RequestSpaceTrainerCommand.h"
-
-
-
-
+#include "ForceBleedCommand.h"
+#include "ForceBleedsCommand.h"
+#include "ForceDiseaseCommand.h"
+#include "ForceDiseasesCommand.h"
+#include "ForcePoisonCommand.h"
+#include "ForcePoisonsCommand.h"
+#include "ForceFireCommand.h"
+#include "ForceFiresCommand.h"
 #endif /* COMMANDSNEW_H_ */
 

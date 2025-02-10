@@ -73,6 +73,13 @@ corellia = {
 		{name = "Bela Vistal Shuttleport B", x = 6930.8042, z = 330, y = -5534.8936, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 1, landingRange = 3},
 	},
 
+	jtlTravelPoints = {
+		{"Coronet Starport", -66.760902, 28, -4641.23},
+		{"Doaba Guerfel Starport", 3349.8933, 308, 5598.1362},
+		{"Kor Vella Starport", -3157.2834, 31, 2876.2029},
+		{"Tyrena Starport", -5003.0649, 21, -2228.3665}
+	},
+
 	jtlLaunchPoint = {"space_corellia", 6520, -5400, -2600},
 
 	badgeAreas = {
@@ -92,12 +99,12 @@ corellia = {
 		{"stronghold",4665,-5781,100},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.664289, oz = 0, ow = 0.747476, x = -133.192, z = 28, y = -4711.16, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.346712, oz = 0, ow = 0.937972, x = -5049.64, z = 21, y = -2304.52, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.290803, oz = 0, ow = 0.956783, x = 3330.38, z = 308, y = 5517.14, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.666281, oz = 0, ow = 0.745701, x = -136.437, z = 28, y = -4730.23, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.664289, oz = 0, ow = 0.747476, x = -133.192, z = 28, y = -4711.16, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.346712, oz = 0, ow = 0.937972, x = -5049.64, z = 21, y = -2304.52, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.290803, oz = 0, ow = 0.956783, x = 3330.38, z = 308, y = 5517.14, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.666281, oz = 0, ow = 0.745701, x = -136.437, z = 28, y = -4730.23, parentid = 0}
+--	}
 }
 
 dantooine = {
@@ -109,6 +116,13 @@ dantooine = {
 		{name = "Dantooine Imperial Outpost", x = -4208.6602, z = 3, y = -2350.24, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3},
 		{name = "Dantooine Agro Outpost", x = 1569.66, z = 4, y = -6415.7598, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3},
 		{name = "Abandoned Rebel Base", x = -6799.6, z = 46.0, y = 5574.3, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 0, landingRange = 3}
+	},
+
+	jtlTravelPoints = {
+		{"Dantooine Mining Outpost", -637.0, 3, 2504.4},
+		{"Dantooine Imperial Outpost", -4208.6602, 3, -2350.24},
+		{"Dantooine Agro Outpost", 1569.66, 4, -6415.7598},
+		{"Abandoned Rebel Base", -6799.6, 46.0, 5574.3}
 	},
 
 	jtlLaunchPoint = {"space_dantooine", 1380, -750, -5900},
@@ -131,10 +145,10 @@ dantooine = {
 		{"the_warren",-550,-3834,50},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.695864, oz = 0, ow = 0.718174, x = 1585.68, z = 4, y = -6368.95, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.725999, oz = 0, ow = -0.687696, x = -629.417, z = 3, y = 2481.24, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.695864, oz = 0, ow = 0.718174, x = 1585.68, z = 4, y = -6368.95, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.725999, oz = 0, ow = -0.687696, x = -629.417, z = 3, y = 2481.24, parentid = 0}
+--	}
 }
 
 dathomir = {
@@ -146,7 +160,13 @@ dathomir = {
 		{name = "Science Outpost", x = -49.021923, z = 18, y = -1584.7278, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3}
 	},
 
+	jtlTravelPoints = {
+		{"Trade Outpost", 618.89258, 6.039608, 3092.0142},
+		{"Science Outpost", -49.021923, 18, -1584.7278}
+	},
+
 	jtlLaunchPoint = {"space_dathomir", -6900, 2750, -4000},
+
 
 	badgeAreas = {
 		{"badge_crashed_ship",5676,1901,0,30,82},
@@ -191,11 +211,11 @@ dathomir = {
 		{"wall",7442,-3024,32},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.701463, oz = 0, ow = 0.712705, x = 592.612, z = 6, y = 3089.84, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.314904, oz = 0, ow = 0.949123, x = -67.6585, z = 18, y = -1595.3, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.314904, oz = 0, ow = 0.949123, x = 5289.6, z = 78.5, y = -4146.1, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.701463, oz = 0, ow = 0.712705, x = 592.612, z = 6, y = 3089.84, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.314904, oz = 0, ow = 0.949123, x = -67.6585, z = 18, y = -1595.3, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.314904, oz = 0, ow = 0.949123, x = 5289.6, z = 78.5, y = -4146.1, parentid = 0}
+--	}
 }
 
 endor = {
@@ -207,7 +227,13 @@ endor = {
 		{name = "Research Outpost", x = 3201.6599, z = 24, y = -3499.76, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3}
 	},
 
+	jtlTravelPoints = {
+		{"Research Outpost", 3201.6599, 24, -3499.76},
+		{"Smuggler Outpost", -950.59241, 73, 1553.4125}
+	},
+
 	jtlLaunchPoint = {"space_endor", -5300, -1500, 5250},
+
 
 	badgeAreas = {
 		{"badge_dulok_villlage",5921,-2514,0,30,88},
@@ -231,10 +257,10 @@ endor = {
 		{"pubam_shaman_hut",-6880,1364,32},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.932952, oz = 0, ow = -0.360002, x = -963.537, z = 73, y = 1556.86, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.723459, oz = 0, ow = -0.690367, x = 3240.5, z = 24, y = -3484.79, parentid = 0},
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.932952, oz = 0, ow = -0.360002, x = -963.537, z = 73, y = 1556.86, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.723459, oz = 0, ow = -0.690367, x = 3240.5, z = 24, y = -3484.79, parentid = 0},
+--	}
 }
 
 lok = {
@@ -245,7 +271,12 @@ lok = {
 		{name = "Nym's Stronghold", x = 478.92676, z = 9, y = 5511.9565, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3},
 	},
 
+	jtlTravelPoints = {
+		{"Nym's Stronghold", 478.92676, 9, 5511.9565}
+	},
+
 	jtlLaunchPoint = {"space_lok", -6200, -5350, 113},
+
 
 	badgeAreas = {
 		{"badge_imp_outpost",-1814,-3086,0,10,98},
@@ -268,9 +299,9 @@ lok = {
 		{"torches_and_arches",716,-3380,32},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.999879, oz = 0, ow = 0.015506, x = 464.677, z = 8.75806, y = 5506.49, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.999879, oz = 0, ow = 0.015506, x = 464.677, z = 8.75806, y = 5506.49, parentid = 0}
+--	}
 }
 
 naboo = {
@@ -294,7 +325,16 @@ naboo = {
 		{name = "Emperor's Retreat", x = 2442.8, z = 292.0, y = -3916.8, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 0, landingRange = 3}
 	},
 
+	jtlTravelPoints = {
+		{"Theed Spaceport", -4858.834, 5.9483199, 4164.0679},
+		{"Keren Starport", 1371.5938, 13, 2747.9043},
+		{"Kaadara Starport", 5280.2002, -192, 6688.0498},
+		{"Moenia", 4731.1743, 4.1700001, -4677.5439},
+		{"Emperor's Retreat", 2442.8, 292.0, -3916.8}
+	},
+
 	jtlLaunchPoint = {"space_naboo", -2500, 900, -6500},
+
 
 	badgeAreas = {
 		{"badge_amidalas_sandy_beach",-5828,-93,0,10,77},
@@ -327,10 +367,13 @@ naboo = {
 	},
 
 	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.715602, oz = 0, ow = -0.698509, x = 4824.53, z = 4.17, y = -4704.9, parentid = 0},
+		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.715602, oz = 0, ow = -0.698509, x = -6011, z = -185.8, y = 6426, parentid = 0},
+--		{templateFile = "object/building/general/corellia_nyax_bunker.iff", ox = 0, oy = 0.715602, oz = 0, ow = -0.698509, x = 2110.1, z = -197.1, y = 5738.2, parentid = 0},
 		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.309582, oz = 0, ow = 0.950873, x = -4876.99, z = 6, y = 4142.12, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0116238, oz = 0, ow = 0.999932, x = 5193.14, z = -192, y = 6680.25, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0116238, oz = 0, ow = -0.686427, x = 1445.8, z = 13, y = 2771.98, parentid = 0}
+--		{templateFile = "object/mobile/dressed_dathomir_nightsister_axkva.iff", ox = 0, oy = 0.0, oz = 0, ow = -0.0, x = 2095.4, z = -197.4, y = 5735.8, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.309582, oz = 0, ow = 0.950873, x = -4876.99, z = 6, y = 4142.12, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0116238, oz = 0, ow = 0.999932, x = 5193.14, z = -192, y = 6680.25, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0116238, oz = 0, ow = -0.686427, x = 1445.8, z = 13, y = 2771.98, parentid = 0}
 	}
 }
 
@@ -346,7 +389,14 @@ rori = {
 		{name = "Rebel Outpost", x = 3691.9023, z = 96, y = -6403.4404, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3}
 	},
 
+	jtlTravelPoints = {
+		{"Narmle Starport", -5374.0718, 80, -2188.6143},
+		{"Restuss Starport", 5340, 80, 5734},
+		{"Rebel Outpost", 3691.9023, 96, -6403.4404}
+	},
+
 	jtlLaunchPoint = {"space_naboo", 6300, -4400, 500},
+
 
 	badgeAreas = {
 		{"badge_imp_camp",-5633,-5661,0,10,96},
@@ -404,11 +454,11 @@ rori = {
 		{"wall_2",-1230,-3207,64},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.100263, oz = 0, ow = 0.994961, x = -5307.37, z = 80.1274, y = -2216.91, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.69192, oz = 0, ow = 0.721974, x = 5370.22, z = 80, y = 5666.04, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0274543, oz = 0, ow = 0.999623, x = 3672.91, z = 96, y = -6441.07, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.100263, oz = 0, ow = 0.994961, x = -5307.37, z = 80.1274, y = -2216.91, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.69192, oz = 0, ow = 0.721974, x = 5370.22, z = 80, y = 5666.04, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.0274543, oz = 0, ow = 0.999623, x = 3672.91, z = 96, y = -6441.07, parentid = 0}
+--	}
 }
 
 talus = {
@@ -421,6 +471,12 @@ talus = {
 		{name = "Talus Imperial Outpost", x = -2227.4, z = 20, y = 2319.9, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 2},
 		{name = "Nashal Shuttleport", x = 4334.5786, z = 9.8999996, y = 5431.0415, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 1, landingRange = 6},
 		{name = "Nashal Starport", x = 4453.7212, z = 2, y = 5354.3345, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3}
+	},
+
+	jtlTravelPoints = {
+		{"Dearic Starport", 263.58401, 6, -2952.1284},
+		{"Nashal Starport", 4453.7212, 2, 5354.3345},
+		{"Talus Imperial Outpost", -2227.4, 20, 2319.9}
 	},
 
 	jtlLaunchPoint = {"space_corellia", -6400, -5300, -4000},
@@ -487,10 +543,10 @@ talus = {
 		{"wind_generators",-4557,-2906,32},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.996369, oz = 0, ow = -0.0851417, x = 4447.08, z = 2, y = 5286.96, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.692641, oz = 0, ow = 0.721282, x = 329.666, z = 6, y = -2924.69, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.996369, oz = 0, ow = -0.0851417, x = 4447.08, z = 2, y = 5286.96, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.692641, oz = 0, ow = 0.721282, x = 329.666, z = 6, y = -2924.69, parentid = 0}
+--	}
 }
 
 tatooine = {
@@ -511,6 +567,14 @@ tatooine = {
 		{name = "Mos Entha Shuttle B", x = 1395.447, z = 7, y = 3467.0117, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 1, landingRange = 6},
 		{name = "Mos Entha Shuttle A", x = 1730.8828, z = 7, y = 3184.6135, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 1, landingRange = 6},
 		{name = "Jabba's Palace", x = -6171.6, z = 90.0, y = -6381.5, interplanetaryTravelAllowed = 0, incomingTravelAllowed = 0, landingRange = 3}
+	},
+
+	jtlTravelPoints = {
+		{"Mos Eisley Starport", 3599.894, 5, -4780.4487},
+		{"Bestine Starport", -1361.1917, 12, -3600.0254},
+		{"Mos Espa Starport", -2833.1609, 5, 2107.3787},
+		{"Mos Entha Starport", 1266.0996, 7, 3065.1392},
+		{"Jabba's Palace", -6171.6, 90.0, -6381.5}
 	},
 
 	jtlLaunchPoint = {"space_tatooine",2300,-5900,1900},
@@ -552,12 +616,12 @@ tatooine = {
 		{"tatooine_broken_walls",2980,6465,32},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.768226, oz = 0, ow = -0.640178, x = 3533.04, z = 5, y = -4796, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.486657, oz = 0, ow = 0.873593, x = -1271.07, z = 12, y = -3590.22, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.514176, oz = 0, ow = 0.857684, x = -2896.35, z = 5, y = 2130.87, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.989124, oz = 0, ow = -0.147086, x = 1299.08, z = 7, y = 3145.21, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.768226, oz = 0, ow = -0.640178, x = 3533.04, z = 5, y = -4796, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.486657, oz = 0, ow = 0.873593, x = -1271.07, z = 12, y = -3590.22, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.514176, oz = 0, ow = 0.857684, x = -2896.35, z = 5, y = 2130.87, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.989124, oz = 0, ow = -0.147086, x = 1299.08, z = 7, y = 3145.21, parentid = 0}
+--	}
 }
 
 yavin4 = {
@@ -568,6 +632,12 @@ yavin4 = {
 		{name = "Yavin IV Labor Outpost", x = -6921.6733, z = 73, y = -5726.5161, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3},
 		{name = "Yavin IV Mining Outpost", x = -267.23914, z = 35, y = 4896.3013, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 1, landingRange = 3},
 		{name = "Yavin IV Imperial Outpost", x = 4054.1, z = 37, y = -6216.9, interplanetaryTravelAllowed = 1, incomingTravelAllowed = 0, landingRange = 3}
+	},
+
+	jtlTravelPoints = {
+		{"Yavin IV Labor Outpost", -6921.6733, 73, -5726.5161},
+		{"Yavin IV Mining Outpost", -267.23914, 35, 4896.3013},
+		{"Yavin IV Imperial Outpost", 4054.1, 37, -6216.9}
 	},
 
 	jtlLaunchPoint = {"space_yavin4", -5600, -5200, -5200},
@@ -589,11 +659,11 @@ yavin4 = {
 		{"yavin4_imperial_base",4036,-6233,75},
 	},
 
-	planetObjects = {
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.705623, oz = 0, ow = 0.708587, x = -6917.18, z = 73, y = -5732.25, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.723339, oz = 0, ow = -0.690493, x = 4057.69, z = 37, y = -6217.54, parentid = 0},
-		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.00721678, oz = 0, ow = 0.999974, x = -293.367, z = 35, y = 4854.52, parentid = 0}
-	}
+--	planetObjects = {
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = -0.705623, oz = 0, ow = 0.708587, x = -6917.18, z = 73, y = -5732.25, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.723339, oz = 0, ow = -0.690493, x = 4057.69, z = 37, y = -6217.54, parentid = 0},
+--		{templateFile = "object/tangible/terminal/terminal_character_builder.iff", ox = 0, oy = 0.00721678, oz = 0, ow = 0.999974, x = -293.367, z = 35, y = 4854.52, parentid = 0}
+--	}
 }
 
 tutorial = {

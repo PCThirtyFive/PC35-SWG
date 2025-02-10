@@ -3,7 +3,7 @@ tusken_raider = Creature:new {
 	socialGroup = "tusken_raider",
 	faction = "tusken_raider",
 	mobType = MOB_NPC,
-	level = 19,
+	level = 320,
 	chanceHit = 0.33,
 	damageMin = 180,
 	damageMax = 190,
@@ -30,7 +30,7 @@ tusken_raider = Creature:new {
 	lootGroups = {
 		{
 			groups = {
-				{group = "tusken_raider_tier_1", chance = 10000000}
+				{group = "tusken_raider_tier_1", chance = 1000000000}
 			}
 		}
 	},

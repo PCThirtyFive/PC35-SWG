@@ -100,19 +100,19 @@ object_tangible_wearables_armor_composite_armor_composite_chest_plate = object_t
 	actionEncumbrance = 120,
 	mindEncumbrance = 85,
 
-	maxCondition = 30000,
+	maxCondition = 60000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
 
-	kinetic = 75,
-	energy = 75,
-	electricity = 80,
-	stun = 30,
-	blast = 75,
-	heat = 75,
-	cold = 75,
-	acid = 75,
+	kinetic = 90,
+	energy = 90,
+	electricity = 90,
+	stun = 40,
+	blast = 90,
+	heat = 90,
+	cold = 90,
+	acid = 90,
 	lightSaber = 0,
 
 	numberExperimentalProperties = {1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
@@ -120,8 +120,8 @@ object_tangible_wearables_armor_composite_armor_composite_chest_plate = object_t
 	experimentalWeights = {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
 	experimentalGroupTitles = {"null", "null", "null", "exp_durability", "exp_quality", "exp_resistance", "exp_durability", "exp_durability", "exp_durability", "null", "null", "exp_resistance", "null"},
 	experimentalSubGroupTitles = {"null", "null", "sockets", "hit_points", "armor_effectiveness", "armor_integrity", "armor_health_encumbrance", "armor_action_encumbrance", "armor_mind_encumbrance", "armor_rating", "armor_special_type", "armor_special_effectiveness", "armor_special_integrity"},
-	experimentalMin = {0, 0, 0, 1000, 1, 30000, 250, 66, 25, 1, 0, 0, 0},
-	experimentalMax = {0, 0, 0, 1000, 40, 50000, 150, 39, 15, 1, 0, 0, 0},
+	experimentalMin = {0, 0, 0, 1000, 1, 30000, 250, 66, 25, 1, 0, 1, 0},
+	experimentalMax = {0, 0, 0, 1000, 50, 50000, 150, 39, 15, 1, 0, 10, 0},
 	experimentalPrecision = {0, 0, 0, 0, 10, 0, 0, 0, 0, 0, 0, 0, 0},
 	experimentalCombineType = {0, 0, 4, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }

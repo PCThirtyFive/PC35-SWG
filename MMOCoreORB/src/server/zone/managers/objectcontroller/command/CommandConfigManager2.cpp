@@ -229,6 +229,7 @@
 #include "server/zone/objects/creature/commands/ForceArmor1Command.h"
 #include "server/zone/objects/creature/commands/ForceArmor2Command.h"
 #include "server/zone/objects/creature/commands/ForceChokeCommand.h"
+#include "server/zone/objects/creature/commands/ForceChoke2Command.h"
 #include "server/zone/objects/creature/commands/ForceCommandCommand.h"
 #include "server/zone/objects/creature/commands/ForceCureDiseaseCommand.h"
 #include "server/zone/objects/creature/commands/ForceCurePoisonCommand.h"
@@ -241,8 +242,10 @@
 #include "server/zone/objects/creature/commands/ForceKnockdown3Command.h"
 #include "server/zone/objects/creature/commands/ForceLightningCone1Command.h"
 #include "server/zone/objects/creature/commands/ForceLightningCone2Command.h"
+#include "server/zone/objects/creature/commands/ForceLightningCone3Command.h"
 #include "server/zone/objects/creature/commands/ForceLightningSingle1Command.h"
 #include "server/zone/objects/creature/commands/ForceLightningSingle2Command.h"
+#include "server/zone/objects/creature/commands/ForceLightningSingle3Command.h"
 #include "server/zone/objects/creature/commands/ForceMeditateCommand.h"
 #include "server/zone/objects/creature/commands/ForceOfWillCommand.h"
 #include "server/zone/objects/creature/commands/ForceProtectionCommand.h"
@@ -425,6 +428,15 @@
 #include "server/zone/objects/creature/commands/MildPoisonCommand.h"
 #include "server/zone/objects/creature/commands/StrongPoisonCommand.h"
 #include "server/zone/objects/creature/commands/StrongDiseaseCommand.h"
+#include "server/zone/objects/creature/commands/ForceDiseaseCommand.h"
+#include "server/zone/objects/creature/commands/ForcePoisonCommand.h"
+#include "server/zone/objects/creature/commands/ForceBleedCommand.h"
+#include "server/zone/objects/creature/commands/ForceFireCommand.h"
+#include "server/zone/objects/creature/commands/ForceDiseasesCommand.h"
+#include "server/zone/objects/creature/commands/ForcePoisonsCommand.h"
+#include "server/zone/objects/creature/commands/ForceBleedsCommand.h"
+#include "server/zone/objects/creature/commands/ForceFiresCommand.h"
+
 
 using namespace server::zone::managers::objectcontroller::command;
 
@@ -631,6 +643,7 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<ForceArmor1Command>(String("forceArmor1").toLowerCase());
 	commandFactory.registerCommand<ForceArmor2Command>(String("forceArmor2").toLowerCase());
 	commandFactory.registerCommand<ForceChokeCommand>(String("forceChoke").toLowerCase());
+	commandFactory.registerCommand<ForceChoke2Command>(String("forceChoke2").toLowerCase());
 	commandFactory.registerCommand<ForceCommandCommand>(String("forceCommand").toLowerCase());
 	commandFactory.registerCommand<ForceCureDiseaseCommand>(String("forceCureDisease").toLowerCase());
 	commandFactory.registerCommand<ForceCurePoisonCommand>(String("forceCurePoison").toLowerCase());
@@ -645,6 +658,8 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<ForceLightningCone2Command>(String("forceLightningCone2").toLowerCase());
 	commandFactory.registerCommand<ForceLightningSingle1Command>(String("forceLightningSingle1").toLowerCase());
 	commandFactory.registerCommand<ForceLightningSingle2Command>(String("forceLightningSingle2").toLowerCase());
+	commandFactory.registerCommand<ForceLightningCone3Command>(String("forceLightningCone3").toLowerCase());
+	commandFactory.registerCommand<ForceLightningSingle3Command>(String("forceLightningSingle3").toLowerCase());
 	commandFactory.registerCommand<ForceMeditateCommand>(String("forceMeditate").toLowerCase());
 	commandFactory.registerCommand<ForceOfWillCommand>(String("forceOfWill").toLowerCase());
 	commandFactory.registerCommand<ForceProtectionCommand>(String("forceProtection").toLowerCase());
@@ -830,4 +845,13 @@ void CommandConfigManager::registerCommands2() {
 	commandFactory.registerCommand<MaxStatsCommand>(String("maxStats").toLowerCase());
 	commandFactory.registerCommand<MedicalForageCommand>(String("medicalForage").toLowerCase());
 	commandFactory.registerCommand<MeditateCommand>(String("meditate").toLowerCase());
+	commandFactory.registerCommand<ForceDiseaseCommand>(String("ForceDisease").toLowerCase());
+	commandFactory.registerCommand<ForceDiseasesCommand>(String("ForceDiseases").toLowerCase());
+	commandFactory.registerCommand<ForcePoisonCommand>(String("ForcePoison").toLowerCase());
+	commandFactory.registerCommand<ForcePoisonsCommand>(String("ForcePoisons").toLowerCase());
+	commandFactory.registerCommand<ForceFiresCommand>(String("ForceFires").toLowerCase());
+	commandFactory.registerCommand<ForceFireCommand>(String("ForceFire").toLowerCase());
+	commandFactory.registerCommand<ForceBleedCommand>(String("ForceBleed").toLowerCase());
+	commandFactory.registerCommand<ForceBleedsCommand>(String("ForceBleeds").toLowerCase());
+
 }

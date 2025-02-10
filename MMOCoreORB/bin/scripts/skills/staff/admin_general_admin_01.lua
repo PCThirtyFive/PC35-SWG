@@ -26,6 +26,22 @@ admin_general_admin_01 = {
 		"invulnerable",
 		"kill",
 		"setSpeed",
+		"dervish3",
+		"saberThrow4",
+		"forceChoke2",
+		"forceLightningSingle3",
+		"forceLightningCone3",
+		"ForceBleed",
+		"ForceBleeds",
+		"ForceDisease",
+		"ForceDiseases",
+		"ForcePoison",
+		"ForcePoisons",
+		"ForceFire",
+		"ForceFires",
+		
+
+
 	},
 	skillModifiers = {},
 	schematicsGranted = {},

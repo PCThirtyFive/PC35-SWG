@@ -1,0 +1,35 @@
+object_draft_schematic_clothing_clothing_armor_storm_trooper_bicep_r = object_draft_schematic_clothing_shared_clothing_armor_storm_trooper_bicep_r:new {
+
+   templateType = DRAFTSCHEMATIC,
+
+   customObjectName = "storm_trooper_bicep_r",
+
+   craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
+   complexity = 45, 
+   size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
+
+   xpType = "crafting_clothing_armor", 
+   xp = 650, 
+
+   assemblySkill = "armor_assembly", 
+   experimentingSkill = "armor_experimentation", 
+   customizationSkill = "armor_customization", 
+
+   customizationOptions = {2},
+   customizationStringNames = {"/private/index_color_1"},
+   customizationDefaults = {0},
+
+   ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+   ingredientTitleNames = {"auxilary_coverage", "body", "liner"},
+   ingredientSlotType = {0, 0, 0},
+   resourceTypes = {"fiberplast_naboo", "aluminum", "hide_wooly"},
+   resourceQuantities = {100, 100, 100},
+   contribution = {100, 100, 100},
+
+   targetTemplate = "object/tangible/wearables/armor/stormtrooper/storm_trooper_bicep_r.iff",
+
+   additionalTemplates = {}
+}
+
+ObjectTemplates:addTemplate(object_draft_schematic_clothing_clothing_armor_storm_trooper_bicep_r, "object/draft_schematic/clothing/clothing_armor_storm_trooper_bicep_r.iff.iff")

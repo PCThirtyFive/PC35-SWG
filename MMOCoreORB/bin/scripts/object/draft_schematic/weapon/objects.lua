@@ -40,6 +40,14 @@
 --this exception also makes it possible to release a modified version
 --which carries forward this exception.
 
+object_draft_schematic_weapon_shared_sunblade = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/weapon/sunblade.iff"}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_weapon_shared_sunblade, "object/draft_schematic/weapon/sunblade.iff")
+
+
+
+
 
 object_draft_schematic_weapon_shared_2h_sword_scythe = SharedDraftSchematicObjectTemplate:new {
 	clientTemplateFileName = "object/draft_schematic/weapon/shared_2h_sword_scythe.iff"

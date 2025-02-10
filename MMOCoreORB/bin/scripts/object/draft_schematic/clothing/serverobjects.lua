@@ -46,6 +46,7 @@
 includeFile("draft_schematic/clothing/component/serverobjects.lua")
 
 -- Server Objects
+includeFile("draft_schematic/clothing/clothing_armor_mando_chest.lua")
 includeFile("draft_schematic/clothing/clothing_apron_chef_01.lua")
 includeFile("draft_schematic/clothing/clothing_apron_field_01.lua")
 includeFile("draft_schematic/clothing/clothing_apron_field_01_quest_01.lua")

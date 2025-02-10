@@ -84,6 +84,22 @@ object_tangible_wearables_robe_robe_inquisitor = object_tangible_wearables_robe_
 				"object/mobile/vendor/weequay_male.iff",
 				"object/mobile/vendor/zabrak_female.iff",
 				"object/mobile/vendor/zabrak_male.iff" },
+				
+			maxCondition = 100,
+			volume = 1,
+			jediRobe = true,
+
+			skillMods = {
+				{"jedi_force_power_max", 3500},
+				{"jedi_force_power_regen", 350}
+			},
+
+			noTrade = 1,
+
+			objectMenuComponent = "RobeObjectMenuComponent",
+			certificationsRequired = {"force_rank_dark_rank_10"},
+			attributeListComponent = "JediRobeAttributeListComponent",
+				
 }
 
 ObjectTemplates:addTemplate(object_tangible_wearables_robe_robe_inquisitor, "object/tangible/wearables/robe/robe_inquisitor.iff")

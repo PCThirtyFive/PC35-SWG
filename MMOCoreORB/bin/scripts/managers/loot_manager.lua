@@ -45,49 +45,46 @@ levelChance = 100
 
 --Chance dividend for attribute bonus modifiers
 baseChance = 100
-yellowChance = 1000
-exceptionalChance = 100000
-legendaryChance = 1000000
+yellowChance = 100
+exceptionalChance = 1000
+legendaryChance = 7500
 
 --Multiplier values for bonus modifiers
 baseModifier = 1
 yellowModifier = 2
 exceptionalModifier = 8
-legendaryModifier = 9
+legendaryModifier = 10
 
 --The chance for random skill mods to be on looted weapons/wearables
-skillModChance = 1000 -- 1 in 1000
+skillModChance = 20 -- 1 in 1000
 
 -- Dot Distribution chance by DOT type. They must equate to 1.0
-poisonDotChance = 0.50
+poisonDotChance = 0.35
 diseaseDotChance = 0.35
-fireDotChance = 0.15
+fireDotChance = 0.30
 
 -- Dot Distribution chance by HAM type. They must equate to 1.0
-healthDotChance = 0.50
+healthDotChance = 0.30
 actionDotChance = 0.35
-mindDotChance = 0.15
+mindDotChance = 0.35
 
 -- Value ranges for random dots on looted weapons (chance is set individually on the loot items)
 randomDotAttribute = {0, 8} -- See CreatureAttributes.h in src for numbers.
-randomDotStrength = {10, 100} -- poison x1.5, disease x0.5
-randomDotDuration = {30, 120} -- disease x4.0, fire x1.5
-randomDotPotency = {1, 50}
-randomDotUses = {250, 4999}
+randomDotStrength = {40, 100} -- poison x1.5, disease x0.5
+randomDotDuration = {50, 120} -- disease x4.0, fire x1.5
+randomDotPotency = {25, 50}
+randomDotUses = {2500, 9999}
 
 -- Modifier applied to min/max junk values found in loot item lua
 junkValueModifier = 5;
 
 lootableArmorAttachmentStatMods = {
-	"aim",
-	"alert",
+	
 	"berserk",
 	"blind_defense",
 	"block",
-	"camouflage",
 	"carbine_accuracy",
 	"carbine_aim",
-	"carbine_hit_while_moving",
 	"carbine_speed",
 	"combat_bleeding_defense",
 	"counterattack",
@@ -99,86 +96,63 @@ lootableArmorAttachmentStatMods = {
 	"droid_track_chance",
 	"droid_track_speed",
 	"foraging",
-	"group_slope_move",
 	"heavy_rifle_lightning_accuracy",
 	"heavy_rifle_lightning_speed",
 	"heavyweapon_accuracy",
 	"heavyweapon_speed",
 	"intimidate",
 	"intimidate_defense",
-	"keep_creature",
 	"knockdown_defense",
 	"melee_defense",
 	"onehandmelee_accuracy",
-	"onehandmelee_damage",
 	"onehandmelee_speed",
 	"pistol_accuracy",
-	"pistol_aim",
-	"pistol_hit_while_moving",
 	"pistol_speed",
-	"pistol_accuracy_while_standing",
 	"polearm_accuracy",
 	"polearm_speed",
 	"posture_change_down_defense",
 	"posture_change_up_defense",
 	"ranged_defense",
-	"rescue",
 	"resistance_bleeding",
 	"resistance_disease",
 	"resistance_fire",
 	"resistance_poison",
 	"rifle_accuracy",
-	"rifle_aim",
-	"rifle_hit_while_moving",
 	"rifle_speed",
 	"slope_move",
-	"steadyaim",
-	"stored_pets",
 	"stun_defense",
-	"take_cover",
 	"tame_aggro",
 	"tame_bonus",
 	"tame_non_aggro",
 	"thrown_accuracy",
 	"thrown_speed",
 	"twohandmelee_accuracy",
-	"twohandmelee_damage",
 	"twohandmelee_speed",
 	"unarmed_accuracy",
 	"unarmed_damage",
-	"unarmed_speed",
-	"volley",
-	"warcry"
+	"unarmed_speed"
 }
 
 lootableClothingAttachmentStatMods = {
-	"aim",
-	"alert",
+	
 	"armor_assembly",
 	"armor_experimentation",
 	"armor_repair",
 	"berserk",
 	"blind_defense",
 	"block",
-	"camouflage",
 	"carbine_accuracy",
-	"carbine_aim",
-	"carbine_hit_while_moving",
 	"carbine_speed",
 	"clothing_assembly",
 	"clothing_experimentation",
-	"clothing_repair",
 	"combat_bleeding_defense",
 	"combat_healing_ability",
 	"combat_medicine_assembly",
 	"combat_medicine_experimentation",
 	"counterattack",
-	"cover",
 	"dizzy_defense",
 	"dodge",
 	"droid_assembly",
-	"droid_complexity",
-	"droid_customization",
 	"droid_experimentation",
 	"droid_find_chance",
 	"droid_find_speed",
@@ -186,11 +160,8 @@ lootableClothingAttachmentStatMods = {
 	"droid_track_speed",
 	"food_assembly",
 	"food_experimentation",
-	"foraging",
 	"general_assembly",
 	"general_experimentation",
-	"grenade_assembly",
-	"grenade_experimentation",
 	"group_slope_move",
 	"healing_ability",
 	"healing_dance_mind",
@@ -201,7 +172,6 @@ lootableClothingAttachmentStatMods = {
 	"healing_music_mind",
 	"healing_music_shock",
 	"healing_music_wound",
-	"healing_range",
 	"healing_range_speed",
 	"healing_wound_speed",
 	"healing_wound_treatment",
@@ -212,56 +182,40 @@ lootableClothingAttachmentStatMods = {
 	"instrument_assembly",
 	"intimidate",
 	"intimidate_defense",
-	"keep_creature",
 	"knockdown_defense",
-	"medical_foraging",
 	"medicine_assembly",
 	"medicine_experimentation",
 	"melee_defense",
 	"onehandmelee_accuracy",
-	"onehandmelee_damage",
 	"onehandmelee_speed",
 	"pistol_accuracy",
-	"pistol_aim",
-	"pistol_hit_while_moving",
 	"pistol_speed",
-	"pistol_accuracy_while_standing",
 	"polearm_accuracy",
 	"polearm_speed",
 	"posture_change_down_defense",
 	"posture_change_up_defense",
 	"ranged_defense",
-	"rescue",
 	"resistance_bleeding",
 	"resistance_disease",
 	"resistance_fire",
 	"resistance_poison",
 	"rifle_accuracy",
-	"rifle_aim",
-	"rifle_hit_while_moving",
 	"rifle_speed",
 	"slope_move",
-	"steadyaim",
-	"stored_pets",
 	"structure_assembly",
 	"structure_complexity",
 	"structure_experimentation",
 	"stun_defense",
 	"surveying",
-	"take_cover",
 	"tame_aggro",
 	"tame_bonus",
 	"tame_non_aggro",
 	"thrown_accuracy",
 	"thrown_speed",
 	"twohandmelee_accuracy",
-	"twohandmelee_damage",
 	"twohandmelee_speed",
 	"unarmed_accuracy",
-	"unarmed_damage",
 	"unarmed_speed",
-	"volley",
-	"warcry",
 	"weapon_assembly",
 	"weapon_experimentation",
 	"weapon_repair"
@@ -835,7 +789,7 @@ jediCrystalStats = {
 	},
 	lightsaber_module_krayt_dragon_pearl = {
 		minDamage = 20,
-		maxDamage = 50,
+		maxDamage = 55,
 		minHitpoints = 900,
 		maxHitpoints = 1400,
 		minHealthSac = -6,

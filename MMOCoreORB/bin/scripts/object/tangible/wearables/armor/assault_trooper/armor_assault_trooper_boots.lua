@@ -1,0 +1,5 @@
+object_tangible_wearables_armor_assault_trooper_armor_assault_trooper_boots = object_tangible_wearables_armor_assault_trooper_shared_armor_assault_trooper_boots:new {
+
+}
+
+ObjectTemplates:addTemplate(object_tangible_wearables_armor_assault_trooper_armor_assault_trooper_boots, "object/tangible/wearables/armor/assault_trooper/armor_assault_trooper_boots.iff")

@@ -50,7 +50,7 @@ SaberThrow3Command = {
 	healthCostMultiplier = 0,
 	actionCostMultiplier = 0,
 	mindCostMultiplier = 0,
-	coneAngle = 30,
+	coneAngle = 90,
 	coneAction = true,
 	forceCostMultiplier = 2.5,
 	visMod = 25,
@@ -75,7 +75,7 @@ SaberThrow3Command = {
 
 	weaponType = JEDIWEAPON,
 
-	range = 32
+	range = 62
 }
 
 AddCommand(SaberThrow3Command)

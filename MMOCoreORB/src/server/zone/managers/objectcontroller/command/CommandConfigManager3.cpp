@@ -219,6 +219,7 @@
 #include "server/zone/objects/creature/commands/Saber2hSweep3Command.h"
 #include "server/zone/objects/creature/commands/SaberPolearmDervishCommand.h"
 #include "server/zone/objects/creature/commands/SaberPolearmDervish2Command.h"
+#include "server/zone/objects/creature/commands/Dervish3Command.h"
 #include "server/zone/objects/creature/commands/SaberPolearmHit1Command.h"
 #include "server/zone/objects/creature/commands/SaberPolearmHit2Command.h"
 #include "server/zone/objects/creature/commands/SaberPolearmHit3Command.h"
@@ -233,6 +234,7 @@
 #include "server/zone/objects/creature/commands/SaberThrow1Command.h"
 #include "server/zone/objects/creature/commands/SaberThrow2Command.h"
 #include "server/zone/objects/creature/commands/SaberThrow3Command.h"
+#include "server/zone/objects/creature/commands/SaberThrow4Command.h"
 #include "server/zone/objects/creature/commands/SampleCommand.h"
 #include "server/zone/objects/creature/commands/SampleDNACommand.h"
 #include "server/zone/objects/creature/commands/ScatterShot1Command.h"
@@ -519,6 +521,7 @@ void CommandConfigManager::registerCommands3() {
 	commandFactory.registerCommand<Saber2hSweep3Command>(String("saber2hSweep3").toLowerCase());
 	commandFactory.registerCommand<SaberPolearmDervishCommand>(String("saberPolearmDervish").toLowerCase());
 	commandFactory.registerCommand<SaberPolearmDervish2Command>(String("saberPolearmDervish2").toLowerCase());
+	commandFactory.registerCommand<Dervish3Command>(String("Dervish3").toLowerCase());
 	commandFactory.registerCommand<SaberPolearmHit1Command>(String("saberPolearmHit1").toLowerCase());
 	commandFactory.registerCommand<SaberPolearmHit2Command>(String("saberPolearmHit2").toLowerCase());
 	commandFactory.registerCommand<SaberPolearmHit3Command>(String("saberPolearmHit3").toLowerCase());
@@ -533,6 +536,7 @@ void CommandConfigManager::registerCommands3() {
 	commandFactory.registerCommand<SaberThrow1Command>(String("saberThrow1").toLowerCase());
 	commandFactory.registerCommand<SaberThrow2Command>(String("saberThrow2").toLowerCase());
 	commandFactory.registerCommand<SaberThrow3Command>(String("saberThrow3").toLowerCase());
+	commandFactory.registerCommand<SaberThrow4Command>(String("saberThrow4").toLowerCase());
 	commandFactory.registerCommand<SampleCommand>(String("sample").toLowerCase());
 	commandFactory.registerCommand<SampleDNACommand>(String("sampleDNA").toLowerCase());
 	commandFactory.registerCommand<ScatterShot1Command>(String("scatterShot1").toLowerCase());
