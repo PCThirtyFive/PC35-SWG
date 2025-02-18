@@ -26,7 +26,7 @@ object_draft_schematic_armor_armor_appearance_marauder_s01_leggings = object_dra
 --	contribution = {100, 100, 100},
 
 
-	targetTemplate = "object/tangible/wearables/armor/marine/armor_appearance_marauder_s01_leggings.iff",
+	targetTemplate = "object/tangible/wearables/armor/marauder/shared_armor_marauder_s01_leggings.iff",
 
 	additionalTemplates = {
 	}

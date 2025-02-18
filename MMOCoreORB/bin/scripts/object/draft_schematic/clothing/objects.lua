@@ -5,6 +5,12 @@ ObjectTemplates:addClientTemplate(object_draft_schematic_clothing_shared_clothin
 
 
 
+object_draft_schematic_armor_shared_armor_appearance_mandalorian_chest = SharedDraftSchematicObjectTemplate:new {
+	clientTemplateFileName = "object/draft_schematic/armor/shared_armor_appearance_mandalorian_chest.iff"
+}
+
+ObjectTemplates:addClientTemplate(object_draft_schematic_armor_shared_armor_appearance_mandalorian_chest, "object/draft_schematic/armor/shared_armor_appearance_mandalorian_chest.iff")
+
 
 
 

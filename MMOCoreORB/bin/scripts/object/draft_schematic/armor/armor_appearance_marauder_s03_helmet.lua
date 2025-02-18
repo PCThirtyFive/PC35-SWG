@@ -30,10 +30,10 @@ object_draft_schematic_armor_armor_appearance_marauder_s03_helmet = object_draft
 
 
 
-	targetTemplate = "object/tangible/wearables/armor/marauder/shared_armor_marauder_s03_helmet.iff",
+	targetTemplate = "object/tangible/wearables/armor/marauder/armor_marauder_s03_helmet.iff",
 
 	additionalTemplates = {
 	}
 }
 
-ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_marauder_s03_helmet, "object/draft_schematic/armor/shared_armor_appearance_marauder_s03_helmet.iff")
+ObjectTemplates:addTemplate(object_draft_schematic_armor_armor_appearance_marauder_s03_helmet, "object/draft_schematic/armor/armor_appearance_marauder_s03_helmet.iff")

@@ -54,11 +54,11 @@ object_tangible_wearables_armor_mandalorian_armor_mandalorian_chest_plate = obje
 	specialResists = ELECTRICITY,
 
 	-- These are default Blue Frog stats
-	healthEncumbrance = 300,
-	actionEncumbrance = 120,
-	mindEncumbrance = 85,
+	healthEncumbrance = 5,
+	actionEncumbrance = 5,
+	mindEncumbrance = 5,
 
-	maxCondition = 60000,
+	maxCondition = 100000,
 
 	-- LIGHT, MEDIUM, HEAVY
 	rating = LIGHT,
@@ -66,12 +66,12 @@ object_tangible_wearables_armor_mandalorian_armor_mandalorian_chest_plate = obje
 	kinetic = 90,
 	energy = 90,
 	electricity = 90,
-	stun = 40,
+	stun = 90,
 	blast = 90,
 	heat = 90,
 	cold = 90,
 	acid = 90,
-	lightSaber = 0,
+	lightSaber = 90,
 
 	numberExperimentalProperties = {1, 1, 1, 1, 2, 2, 2, 2, 2, 1, 1, 2, 1},
 	experimentalProperties = {"XX", "XX", "XX", "XX", "OQ", "SR", "OQ", "UT", "MA", "OQ", "MA", "OQ", "MA", "OQ", "XX", "XX", "OQ", "SR", "XX"},
@@ -84,4 +84,4 @@ object_tangible_wearables_armor_mandalorian_armor_mandalorian_chest_plate = obje
 	experimentalCombineType = {0, 0, 4, 1, 1, 1, 1, 1, 1, 4, 4, 4, 1},
 }
 
-ObjectTemplates:addTemplate(object_tangible_wearables_armor_mandalorian_armor_mandalorian_chest_plate, "object/tangible/wearables/armor/mandalorian/armor_mandalorian_chest_plate.iff")
+ObjectTemplates:addTemplate(object_tangible_wearables_armor_mandalorian_armor_mandalorian_chest_plate, "object/tangible/wearables/armor/mandalorian/shared_armor_mandalorian_chest_plate.iff")

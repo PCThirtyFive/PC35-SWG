@@ -1,32 +1,33 @@
 object_draft_schematic_armor_armor_appearance_mandalorian_leggings = object_draft_schematic_armor_shared_armor_appearance_mandalorian_leggings:new {
-	templateType = DRAFTSCHEMATIC,
+	   templateType = DRAFTSCHEMATIC,
 
---	customObjectName = "Painting of a Krayt Dragon Skeleton",
+   customObjectName = "Mandalorian Armor Pants",
 
---	craftingToolTab = 512, -- (See DraftSchematicObjectTemplate.h)
---	complexity = 15,
---	size = 2,
+   craftingToolTab = 2, -- (See DraftSchematicObjectTemplate.h)
+   complexity = 45, 
+   size = 4, 
+   factoryCrateType = "object/factory/factory_crate_clothing.iff",
 
---	xpType = "crafting_structure_general",
---	xp = 80,
+   xpType = "crafting_clothing_armor", 
+   xp = 650, 
 
---	assemblySkill = "structure_assembly",
---	experimentingSkill = "structure_experimentation",
---	customizationSkill = "structure_customization",
+   assemblySkill = "armor_assembly", 
+   experimentingSkill = "armor_experimentation", 
+   customizationSkill = "armor_customization", 
 
---	customizationOptions = {},
---	customizationStringNames = {},
---	customizationDefaults = {},
+   customizationOptions = {2},
+   customizationStringNames = {"/private/index_color_1"},
+   customizationDefaults = {0},
 
---	ingredientTemplateNames = {"craft_furniture_ingredients_n", "craft_furniture_ingredients_n", "craft_furniture_ingredients_n"},
---	ingredientTitleNames = {"frame", "canvas", "paints"},
---	ingredientSlotType = {0, 0, 0},
---	resourceTypes = {"metal", "hide", "petrochem_inert_polymer"},
---	resourceQuantities = {50, 50, 40},
---	contribution = {100, 100, 100},
+   ingredientTemplateNames = {"craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n", "craft_clothing_ingredients_n"},
+   ingredientTitleNames = {"auxilary_coverage", "body", "liner", "hardware_and_attachments", "binding_and_reinforcement", "padding", "armor", "load_bearing_harness", "reinforcement"},
+   ingredientSlotType = {0, 0, 0, 0, 0, 0, 1, 1, 1},
+   resourceTypes = {"ore_intrusive", "fuel_petrochem_solid_known", "fiberplast_naboo", "aluminum", "copper_beyrllius", "hide_wooly", "object/tangible/component/armor/shared_armor_segment_composite.iff", "object/tangible/component/clothing/shared_synthetic_cloth.iff", "object/tangible/component/clothing/shared_reinforced_fiber_panels.iff"},
+   resourceQuantities = {100, 100, 50, 60, 50, 40, 4, 1, 1},
+   contribution = {100, 100, 100, 100, 100, 100, 100, 100, 100},
 
 
-	targetTemplate = "object/tangible/wearables/armor/marine/armor_appearance_mandalorian_leggings.iff",
+	targetTemplate = "object/tangible/wearables/armor/mandalorian/shared_armor_mandalorian_leggings.iff",
 
 	additionalTemplates = {
 	}

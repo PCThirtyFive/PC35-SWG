@@ -107,6 +107,9 @@ Core3 = {
 	TrePath = "/home/admin/Desktop/SWGEmu",
 	TreFiles = {
 		"default_patch.tre",
+		"schemtest.tre",
+		"bhfix.tre",
+		"apptre.tre",
 		"pcult.tre",
 		"pc353.tre",
 		"pc352.tre",

@@ -26,7 +26,7 @@ object_draft_schematic_armor_armor_appearance_marauder_s02_boots = object_draft_
 --	contribution = {100, 100, 100},
 
 
-	targetTemplate = "object/tangible/wearables/armor/marine/armor_appearance_marauder_s02_boots.iff",
+	targetTemplate = "object/tangible/wearables/armor/marauder/shared_armor_marauder_s02_boots.iff",
 
 	additionalTemplates = {
 	}
